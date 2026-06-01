@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import requests, io, time
-from Bio import SeqIO
+
 
 # ─────────────────────────────────────────────────────────
 # Biophysical scales
