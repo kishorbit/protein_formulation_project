@@ -36,19 +36,26 @@ NAMED_CONSTRAINTS = {
         "agg_mean":+1,"agg_hotspot_frac":+1,"sug_conc_mM":-1,
         "sur_conc_mM":-1,"sug_x_instability":-1,
     },
-    "oxidation_level": {
+        "oxidation_level": {
         "temperature_c":+1,"high_temp_flag":+1,"pct_met":+1,"pct_trp":+1,
+        "met_x_temp":+1,"met_x_ph":+1,"cys_x_ph":+1,"cys_x_temp":+1,
+        "cys_met_ratio":+1,"cys_met_sum":+1,
+        "flag_high_cys":+1,"flag_high_met":+1,
     },
     "deamidation_level": {
         "temperature_c":+1,"high_temp_flag":+1,"pct_asn":+1,"ph":+1,
+        "asn_x_ph":+1,"asn_x_temp":+1,"instab_x_asn":+1,
+        "flag_high_asn":+1,
     },
     "potency_retention": {
         "temperature_c":-1,"high_temp_flag":-1,"instability_index":-1,
         "agg_mean":-1,"sug_conc_mM":+1,
+        "instab_x_seqlen":-1,"flag_unstable":-1,"flag_long_seq":-1,
     },
     "shelf_life_score": {
         "temperature_c":-1,"high_temp_flag":-1,"instability_index":-1,
         "sug_conc_mM":+1,"sur_conc_mM":+1,
+        "instab_x_seqlen":-1,"flag_unstable":-1,"flag_long_seq":-1,
     },
 }
 
