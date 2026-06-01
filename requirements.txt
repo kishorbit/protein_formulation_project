@@ -10,3 +10,4 @@ imbalanced-learn==0.14.1
 joblib==1.5.3
 scipy==1.17.1
 pillow==12.2.0
+biopython==1.87
